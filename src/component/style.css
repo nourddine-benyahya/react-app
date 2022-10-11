@@ -1,0 +1,63 @@
+.card{
+    margin: 50px auto;
+    width: 600px;
+    padding: 50px ;
+    display: grid;
+    grid-gap:20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input .inputtxt{
+     border-radius: 9px;
+     width: 80%;
+     height: 35px;
+     border: solid 1px;
+     border-color: burlywood;
+     margin: 0 60px 0 0;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;    
+    grid-gap: 10px;
+}
+.info div{
+    background-color: aqua;
+    padding: 4px 5px;
+    border-radius: 10px;
+    width: 155px;
+}
+.filter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;    
+    grid-gap: 10px;
+}
+.delete{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;    
+    grid-gap: 10px;
+}
+.line{
+    text-decoration: line-through;
+}
+
+.task{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;    
+    grid-gap: 10px;
+    border: 1px aqua solid;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.task div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;    
+    grid-gap: 10px;
+}
